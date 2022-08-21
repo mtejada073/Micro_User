@@ -13,8 +13,6 @@ Leer el archivo [requirements.txt](https://github.com/mtejada073/Taller2/blob/ma
 
 ### Software a Instalar ⚙️
 
-_Explica como ejecutar las pruebas automatizadas para este sistema_
-
 #### Ejecución Local 💻
 
 Seguir los siguientes pasos:
