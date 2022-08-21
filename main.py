@@ -1,7 +1,7 @@
 from tokenize import String
 from typing import Union
 from xxlimited import Str
-from fastapi import FastAPI
+from fastapi import FastAPI, status, Response
 import requests
 from prometheus_fastapi_instrumentator import Instrumentator
 import logging.config
@@ -29,6 +29,9 @@ def read_item(idUsuario : str):
     for item in list:
         if item["idUsuario"]==idUsuario:
             return item
+        
+    return Response(status_code= status.HTTP_204_NO_CONTENT)
+
 
 def infoUser():
     url='https://62fef1fea85c52ee483e83bb.mockapi.io/infoUser'
