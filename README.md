@@ -41,6 +41,4 @@ Swagger
 ```
 #### Abrir en ejecución 🌎
 
-```
 [https://app-matm-user.herokuapp.com/](https://app-matm-user.herokuapp.com/)
-```
