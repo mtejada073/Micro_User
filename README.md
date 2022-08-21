@@ -25,5 +25,23 @@ Seguir los siguientes pasos:
 ```
 
 #### Probar localmente 🔎
+Ejecución de pruebas unitarias:
+```
+* pytest
+```
 
+Ejecución del site local: 
+```
+* localhost:8000
+```
+
+Swagger
+```
+* localhost:8000/docs
+```
 #### Abrir en ejecución 🌎
+
+Ver aquí
+```
+https://app-matm-user.herokuapp.com/(https://app-matm-user.herokuapp.com/)
+```
